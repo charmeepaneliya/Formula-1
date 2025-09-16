@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap live project</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+        <div class="container">
+            <a class="navbar-brand " href="#"><span class="fs-5 text-danger">F1</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 fs-5">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Dropdown
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Aston martin</a></li>
+                            <li><a class="dropdown-item" href="#">Ferrari</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Mercedes</a></li>
+                            
+                        </ul>
+                        <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                    </li>
+
+                </ul>
+                <form class="d-flex" role="search">
+
+                    <button class="btn btn-outline-warning" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div id="carouselExampleDark" class="carousel carousel-dark slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active " data-bs-interval="10000">
+                    <img src="https://images.pexels.com/photos/13409636/pexels-photo-13409636.jpeg"
+                        class="d-block w-100" alt="1">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h5>Formula 1 car47</h5>
+                        <p>Some representative placeholder content for the first slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item" data-bs-interval="2000">
+                    <img src="https://images.pexels.com/photos/29252113/pexels-photo-29252113.jpeg"
+                        class="d-block w-100" alt="2">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h5>Formula 1 car11</h5>
+                        <p>Some representative placeholder content for the second slide.</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="https://images.pexels.com/photos/10795564/pexels-photo-10795564.jpeg"
+                        class="d-block w-100" alt="3">
+                    <div class="carousel-caption d-none d-md-block text-white">
+                        <h5>formul 1 car55</h5>
+                        <p>Some representative placeholder content for the third slide.</p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </main>
+
+    <section id="service" class="my-3">
+        <div class="h1 text-center mt-5 mb-5">services</div>
+        <div class="container">
+            <div class="row">
+                <div class="col-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/29252128/pexels-photo-29252128.jpeg"
+                            class="card-img-top" alt="1">
+                        <div class="card-body">
+                            <h5 class="card-title">Formula 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/12582267/pexels-photo-12582267.jpeg"
+                            class="card-img-top" alt="2">
+                        <div class="card-body">
+                            <h5 class="card-title">Formula 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/28680794/pexels-photo-28680794.jpeg"
+                            class="card-img-top" alt="3">
+                        <div class="card-body">
+                            <h5 class="card-title">Formula 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/29382691/pexels-photo-29382691.jpeg"
+                            class="card-img-top" alt="4">
+                        <div class="card-body">
+                            <h5 class="card-title">Formula 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/31331376/pexels-photo-31331376.jpeg"
+                            class="card-img-top" alt="5">
+                        <div class="card-body">
+                            <h5 class="card-title">Formula 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="card" style="width: 18rem;">
+                        <img src="https://images.pexels.com/photos/18789595/pexels-photo-18789595.jpeg"
+                            class="card-img-top" alt="6">
+                        <div class="card-body">
+                            <h5 class="card-title">Formula 1</h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk
+                                of the
+                                card’s content.</p>
+                            <a href="#" class="btn btn-warning">Go somewhere</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
