@@ -7,6 +7,11 @@
     height: 680px;
     object-fit: cover;
 }
+.col-6 > img{
+    height: 450px;
+    width: 100%;
+    object-fit: cover;
+}
 
 /* card section */
 
