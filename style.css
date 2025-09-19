@@ -19,16 +19,34 @@
   object-fit: cover;
 }
 
-
 /* card section */
 
 .card{
     box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 }
 .card:hover{
-   scale: 1.9s;
+   
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
 
-}
+
 .card > img{
     object-fit: cover;
 }
+
+
+@media screen and (max-width:768px) {
+    .carousel-item > img{
+        object-fit: cover;
+        height: 50vh;
+    }
+    .card:hover{
+   
+      transform: scale(1.05);
+      transition: transform 0.3s ease-in-out;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    }
+}
+
